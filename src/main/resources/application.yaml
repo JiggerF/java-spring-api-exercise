@@ -1,0 +1,7 @@
+spring:
+  cache:
+    cache-names: accessToken
+    caffeine:
+      spec: maximumSize=500,expireAfterAccess=30s
+server:
+  port: 8888
